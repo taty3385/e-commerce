@@ -13,8 +13,8 @@ export default function Header() {
     return classes.filter(Boolean).join(" ");
   }
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="w-100vh sm:px-6 lg:px-8" style={{ backgroundColor: "#E0479E" }}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light w-100vw"style={{ backgroundColor: "#E0479E" ,margin:0 }}>
+      <div className="w-100vw  lg:px-8" >
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <img
